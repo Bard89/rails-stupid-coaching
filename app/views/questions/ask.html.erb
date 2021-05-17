@@ -1,0 +1,9 @@
+<h1>Welcome to my first rails page 🚀 ask html</h1>
+
+<!-- action needs the path to the answer view
+ -->
+<form action="/answer" method="get" id="form">
+  <input type="text" name="question" placeholder="This is just a placeholder."
+   value="<%= @question_query%>" >
+  <input type="submit" value="Ask!">
+</form>
